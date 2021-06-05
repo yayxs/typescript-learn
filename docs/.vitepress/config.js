@@ -21,7 +21,13 @@ module.exports = {
   
   function getGuideSidebar() {
     return [
-     
-
+      {
+        text: '写在前面',
+        link: '/guide/background'
+      },
+      {
+        text: '关于TypeScript',
+        link: '/guide/is'
+      },
     ]
   }

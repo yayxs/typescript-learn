@@ -76,7 +76,7 @@ tuple[0];
 
 直接点出来，会出来相应的 API
 
-![](../../../assets/images/images/QQ20191020-2.png)
+<!-- ![](../../../assets/images/images/QQ20191020-2.png) -->
 
 - 枚举
   标准数据类型的一种补充，见名知意
