@@ -44,6 +44,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
  - 静态类型 vs 动态类型
  - 转换问题
  - 浏览器跑不了 node跑不了
+ - 开始使用
 <br>
 <br>
 

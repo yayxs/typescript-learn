@@ -1,1 +1,0 @@
-import{o as n,c as s,a}from"./app.589c5546.js";const p='{"title":"开始使用","description":"","frontmatter":{},"headers":[{"level":2,"title":"开始使用","slug":"开始使用"}],"relativePath":"005-第一段TS代码.md","lastUpdated":1622474906152}',t={},o=a('',29);t.render=function(a,p,t,e,c,u){return n(),s("div",null,[o])};export default t;export{p as __pageData};
