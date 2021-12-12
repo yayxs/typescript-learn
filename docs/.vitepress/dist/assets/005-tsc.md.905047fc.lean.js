@@ -1,1 +1,0 @@
-import{o as s,c as n,a}from"./app.17d80fe1.js";const o='{"title":"tsconfig.json","description":"","frontmatter":{},"headers":[{"level":2,"title":"tsconfig.json","slug":"tsconfig-json"}],"relativePath":"005-tsc.md","lastUpdated":1622474905829}',t={},p=a('',8);t.render=function(a,o,t,e,c,r){return s(),n("div",null,[p])};export default t;export{o as __pageData};

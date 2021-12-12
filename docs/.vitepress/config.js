@@ -29,5 +29,9 @@ module.exports = {
         text: '关于TypeScript',
         link: '/guide/is'
       },
+      {
+        text: '开始使用',
+        link: '/guide/use'
+      },
     ]
   }

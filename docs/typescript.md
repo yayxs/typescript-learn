@@ -90,42 +90,8 @@ VM212:1 Uncaught SyntaxError: Unexpected token ':' // 错误的一种形式，�
 - TypeScript 编译器
 - [https://babeljs.io/](https://babeljs.io/)
 
-## 开始使用
 
-开始 玩无非就是简单的 demo 然后在 vue 中的应用 在 react 中的应用 其次生态 玩一玩生态，大体是要简单的写写 ts 的代码，我现在在看说唱，我们这样，定义一个对象，然后数一数 rapper
 
-```typescript
-const rappers = {
-    first:"subs"，
-    sec:'彤彤',
-    thir:"姜云升"
-}
-```
-
-我们 getter 读取每一个说唱歌手，
-
-```
-console.log(rappers['sec'])
-```
-
-这时候我们直接打印第四个歌手，可能会出问题，你都学 ts js 的基本类型应该晓得，参见 top-fe-iqa
-
-```js
-boolean，bigint，null，number，string，symbol，object，和undefined
-```
-
-这里重点说一下，类型
-
-```
-Number	双精度IEEE 754浮点数。
-String	一个不变的UTF-16字符串。
-BigInt	任意精度格式的整数。
-Boolean	true和false。
-Symbol	通常用作键的唯一值。
-Null	等同于单位类型。
-Undefined	也等同于单位类型。
-Object	类似于记录。
-```
 
 ts 不愧是 ts 在定义类型的时候，简单的扩展了几种 一是 any [`unknown`](https://www.typescriptlang.org/play#example/unknown-and-never) never void 现在没必要知道怎么用
 
