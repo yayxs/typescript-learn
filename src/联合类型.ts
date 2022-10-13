@@ -1,1 +1,0 @@
-type BoolType = true | false;

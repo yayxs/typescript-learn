@@ -1,1 +1,5 @@
-let d = [Direction.UP, Direction.Down]
+let d = [Direction.UP, Direction.Down];
+
+// let setting:AjaxSetting{
+
+// }

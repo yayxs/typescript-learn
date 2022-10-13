@@ -1,1 +1,5 @@
-declare var jQuery: (selector: string) => any
+declare var jQuery: (selector: string) => any;
+interface AjaxSetting {
+  method?: 'GET' | 'POST';
+  data?: any;
+}

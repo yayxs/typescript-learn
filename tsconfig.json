@@ -1,1 +1,14 @@
-{}
+{
+  "compilerOptions": {
+    "target": "ESNext", 
+    "allowJs": true,
+    "checkJs": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["types/*"]
+    }
+  },
+}
