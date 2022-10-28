@@ -1,21 +1,20 @@
 // 公共，私有与受保护的修饰符
-var Person = /** @class */ (function () {
-    function Person() {
-    }
-    Person.prototype.getName = function () {
+class Person {
+    name;
+    age;
+    getName() {
         console.log(this.name);
-    };
-    Person.prototype.setName = function (name) {
+    }
+    setName(name) {
         this.name = name;
-    };
-    Person.prototype.sayName = function () {
-        console.log("my name is " + this.name);
-    };
-    Person.prototype.sayAge = function () {
-        console.log("my age is " + this.age);
-    };
-    return Person;
-}());
-var p = new Person();
-p.setName("yayxs");
+    }
+    sayName() {
+        console.log(`my name is ${this.name}`);
+    }
+    sayAge() {
+        console.log(`my age is ${this.age}`);
+    }
+}
+let p = new Person();
+p.setName(`yayxs`);
 p.getName();

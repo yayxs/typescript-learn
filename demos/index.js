@@ -1,18 +1,15 @@
-var _name = "zhangsan";
+let _name = `zhangsan`;
 // console.log(_name)
 var a;
 a = 123;
-var arrString1 = ["yayxs"];
-var arrNum = [1, 2, 3];
-var tuple;
-tuple = ["yayxs", 18, "\u7537\u751F"];
+let arrString1 = [`yayxs`];
+let arrNum = [1, 2, 3];
+let tuple;
+tuple = [`yayxs`, 18, `男生`];
 // console.log(`${tuple[0]}是${tuple[2]}，今年${tuple[1]}`)
-var addFn = function (a, b) {
-    if (b === void 0) { b = 10; }
-    return a + b;
-};
+const addFn = (a, b = 10) => a + b;
 // const addCon = (a: number, b: number): void => console.log(a + b)
-var addABC = function (a, b, c) {
+const addABC = (a, b, c) => {
     if (c) {
         return a + b + c;
     }
@@ -20,29 +17,23 @@ var addABC = function (a, b, c) {
         return a + b;
     }
 };
-var arrList = [1, 2, 3, 4];
+const arrList = [1, 2, 3, 4];
 // 其中acc为累加器；cur当前值
-var reducer = function (acc, cur) { return acc + cur; };
-var res = arrList.reduce(reducer, 5);
+const reducer = (acc, cur) => acc + cur;
+let res = arrList.reduce(reducer, 5);
 // console.log(res) // 15
-var addFun = function (a) {
-    var nums = [];
-    for (var _i = 1; _i < arguments.length; _i++) {
-        nums[_i - 1] = arguments[_i];
-    }
-    return nums.reduce(reducer, a);
-};
+const addFun = (a, ...nums) => nums.reduce(reducer, a);
 // console.log(addFun(1, 2, 3, 4))
-var myInfo;
-myInfo = "yayxs";
+let myInfo;
+myInfo = `yayxs`;
 myInfo = 18;
-var myInfoFn = function (info) {
+const myInfoFn = (info) => {
     switch (typeof info) {
-        case "number":
-            console.log("\u6211\u4ECA\u5E74" + info);
-        case "string":
-            console.log("\u6211\u7684\u540D\u5B57" + info);
+        case `number`:
+            console.log(`我今年${info}`);
+        case `string`:
+            console.log(`我的名字${info}`);
         default:
     }
 };
-myInfoFn("yayxs");
+myInfoFn(`yayxs`);

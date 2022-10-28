@@ -1,1 +1,0 @@
-let notANumber: number = NaN

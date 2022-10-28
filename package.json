@@ -2,6 +2,7 @@
   "name": "typescript-learn",
   "version": "0.0.1",
   "scripts": {
+    "dev": "tsc",
     "eslint": "eslint src --ext .ts"
   },
   "keywords": [
