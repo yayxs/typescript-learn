@@ -1,20 +1,13 @@
-const arrType1: string[] = [];
-const arrType2: Array<string> = [];
-const arrType3: [string, string, string] = ['a', 'a', 'a'];
-const arrType4: [string, number, boolean] = ['string', 1, false];
-const arrType5: [name: string, age: number, male: boolean] = ['a', 12, true]; // 具名元祖
-
-let contIsNum: number[] = [12]; // 子元素是数字类型的数组
-
-/**
- * 这就需要重点说一下，毕竟在`js` 中很少提到,习惯上用 `T` 来表示
- * Array<elemType>
- */
-const cntIsNUm: Array<number> = [34]; // 使用泛型
-
+const arrayType1: string[] = [];
+const arrayType2: Array<string> = [];
+const arrayType3: [string, string, string] = ['a', 'a', 'a'];
+const arrayType4: [string, number, boolean] = ['string', 1, false];
+const arrayType5: [name: string, age: number, male: boolean] = ['a', 12, true]; // 具名元祖
+const arrayType6: number[] = [12]; // 子元素是数字类型的数组
+const arrayType7: Array<number> = [0]; // Array<elemType> 使用泛型
 /** 类型 + [] */
-const contIsStr: string[] = ['12']; // 子元素是字符串类型的数组
-let cci: number[] = [1, 2];
+const arrayType8: string[] = ['12']; // 子元素是字符串类型的数组
+let arrayType9: number[] = [1, 2];
 
 /**
  * 接口表示数组

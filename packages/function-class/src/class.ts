@@ -2,7 +2,7 @@
  * 类的主要结构 构造函数 属性 方法 访问符
  */
 
-class MyFriend {
+class Utils {
   // 数据类容
   prop: string;
   name: string;
@@ -26,7 +26,7 @@ class MyFriend {
   }
 }
 // new 对象
-let vl = new MyFriend('van');
+let vl = new Utils('van');
 // set 内容
 vl.name = `xue-hua`;
 // get 内容

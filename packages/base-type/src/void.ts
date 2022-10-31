@@ -26,3 +26,5 @@ function func2() {}
 function func3(): undefined {
   return undefined;
 }
+
+function func4(): void {}

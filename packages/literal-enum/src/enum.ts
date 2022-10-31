@@ -3,10 +3,18 @@
  * 对象是单向映射的 只能从键映射到键值
  * 枚举是双向映射的
  */
+
+enum Pages {
+  homeUrl = 'home',
+  meUrl = 'me',
+}
+
+const home = Pages.homeUrl;
+
 enum Items {
-  Foo,
-  Bar,
-  Baz,
+  Foo, // 0
+  Bar, // 1
+  Baz, // 2
 }
 
 enum Items1 {

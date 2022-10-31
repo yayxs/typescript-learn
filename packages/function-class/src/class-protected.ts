@@ -1,5 +1,5 @@
 // 修饰符
-class FriendCls {
+class FooCls {
   private name: string;
   private age: number;
   constructor(age: number, name: string) {

@@ -4,18 +4,21 @@
  * 将 any / unknown
  */
 
+// as NewType
 let unknownVar1: unknown;
 
 (unknownVar1 as { foo: () => {} }).foo();
 
 const isStr: string = 'van';
 (isStr as any).func().foo().a;
+// 断言具体的一个分支
 
-function isNumOrStr(target: string | number) {
-  if ((target as string).includes('van')) {
+function func1(input: string | number) {
+  if ((input as string).includes('')) {
+    console.log();
   }
 
-  if ((target as number).toFixed() === 'van') {
+  if ((input as number).toFixed() === '1') {
   }
 }
 
@@ -23,8 +26,8 @@ interface IFoo {
   name: string;
 }
 
-declare const o: {
-  za: IFoo;
+declare const asObj: {
+  foo: IFoo;
 };
 
-const { za = {} as IFoo } = o;
+const { foo = {} as IFoo } = asObj;
