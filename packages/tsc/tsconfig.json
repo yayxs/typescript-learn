@@ -1,0 +1,6 @@
+{
+  "files": ["./src/a.ts", "./src/b.ts"],
+  "compilerOptions": {
+    "outFile": "dist/app.js"
+  }
+}

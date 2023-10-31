@@ -27,15 +27,3 @@ const addFun = (a: number, ...nums: number[]) => nums.reduce(reducer, a);
 let myInfo: any;
 myInfo = `yayxs`;
 myInfo = 18;
-
-const myInfoFn = (info: any) => {
-  switch (typeof info) {
-    case `number`:
-      console.log(`我今年${info}`);
-    case `string`:
-      console.log(`我的名字${info}`);
-    default:
-  }
-};
-
-myInfoFn(`yayxs`);
