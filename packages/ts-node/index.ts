@@ -1,1 +1,3 @@
-console.log('log ts')
+const str:string = 'ts-node'
+
+console.log('str',str)
