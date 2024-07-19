@@ -1,24 +1,20 @@
 {
   "name": "typescript-learn",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "type": "module",
   "scripts": {
-    "dev": "tsc",
-    "eslint": "eslint src --ext .ts"
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview"
   },
   "keywords": [
     "ts",
     "typescript"
   ],
-  "dependencies": {
-    "next": "^14.0.1",
-    "nextra": "^2.13.2",
-    "nextra-theme-docs": "^2.13.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ts-node": "^10.9.1"
-  },
   "devDependencies": {
-    "@types/node": "^18.11.7",
-    "typescript": "^5.2.2"
+    "prettier": "^3.3.3",
+    "rspress": "^1.26.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.5.3"
   }
 }
