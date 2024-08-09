@@ -5,7 +5,8 @@
   "scripts": {},
   "keywords": [
     "ts",
-    "typescript"
+    "typescript",
+    "class"
   ],
   "devDependencies": {
     "prettier": "^3.3.3",
