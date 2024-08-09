@@ -2,18 +2,13 @@
   "name": "typescript-learn",
   "version": "0.0.2",
   "type": "module",
-  "scripts": {
-    "dev": "rspress dev",
-    "build": "rspress build",
-    "preview": "rspress preview"
-  },
+  "scripts": {},
   "keywords": [
     "ts",
     "typescript"
   ],
   "devDependencies": {
     "prettier": "^3.3.3",
-    "rspress": "^1.26.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.5.3"
   }
